@@ -39,13 +39,13 @@ _______
       - Du logger ind på computeren med koden "ddlab".
       - Åbner SCAL, og designer din fil.
 
-   ![Figur](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/Figur.png)
+   ![Figur](./media/Figur.png)
 
 2. når du er klar til at skærer:
 
    1. skær et stykke vinyl ud.
 
-      ![](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/skær ud.jpg)
+      ![](./media/skær ud.jpg)
 
 3. placer dit valgte materiale (vinyl) på matten i vinylcutteren
 
@@ -53,19 +53,19 @@ _______
 
       **Vigtigt: Brug kun adhesive-spray lim der kan fjernes igen!!!**
 
-      ![](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/adhesive.jpg)
+      ![](./media/adhesive.jpg)
 
    2. Brug rullen, til at presse emnet ned mod matten, og fjerne luftebobler, så det klæber sig fast på vinylcutterens mat.
 
-      <img src="/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/roller2.jpg" style="zoom: 33%;" />
+      <img src="./media/roller2.jpg" style="zoom: 33%;" />
 
 4. Vælg det korrekte blade i forhold til materiale (hvis det er vinyl så vælges den røde kniv)
 
-   ![knive](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/knive.png)
+   ![knive](./media/knive.png)
 
    4. kniven monteres da i vinylcutteren, og knivens dybde indstilles
 
-      ![](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/kniv-montering-irl.png)
+      ![](./media/kniv-montering-irl.png)
 
       1. knivens spids skal kun lige nøjagtigt røre ved matten der ligger under vinyl-emnet
 
@@ -75,7 +75,7 @@ _______
 
    5. herefter kligger du på "cutter" inde i SCAL softwaret på computeren.
 
-   ![cut settings](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/cut settings - ddlab.png)
+   ![cut settings](./media/cut settings - ddlab.png)
 
    1. I Cut settings skal du indstille på følgende måde: (som vist)
 
@@ -96,7 +96,7 @@ _______
 
    4. set Origin (hvor på dit emne skal figuren skæres ud)
 
-      ![set origin](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/set origin.png)
+      ![set origin](./media/set origin.png)
 
       1. for at flytte origin bruger man piletasterne på den tilsluttede computer for at ændre X og Y positionen
       2. positionen kan flyttes hurtigere ved at holde "shift" + piletast eller langsommere med "cmd"+piletast
@@ -112,7 +112,7 @@ _______
 
       1. fjern matten fra vinylcutter før rengørring.
 
-      ![](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/cleanup.jpg)
+      ![](./media/cleanup.jpg)
 
    3. kniven afmonteres og alt grej opryddes og kommes i den gule vinylcutter kasse.
 
@@ -122,4 +122,3 @@ _______
 
 - https://www.doityourself.com/stry/cellulose-adhesive (fjerne spray lim)
 - https://www.iloveknk.com/0um/MaxxAir-with-MTC/KNKMaxxAir-with-MTC-UM.pdf
-- 
