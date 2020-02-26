@@ -45,7 +45,7 @@ _______
 
    1. skær et stykke vinyl ud.
 
-      ![](./media/skær ud.jpg)
+      ![](./media/skær-ud.jpg)
 
 3. placer dit valgte materiale (vinyl) på matten i vinylcutteren
 
@@ -75,7 +75,7 @@ _______
 
    5. herefter kligger du på "cutter" inde i SCAL softwaret på computeren.
 
-   ![cut settings](./media/cut settings - ddlab.png)
+   ![cut settings](./media/cut-settings-ddlab.png)
 
    1. I Cut settings skal du indstille på følgende måde: (som vist)
 
@@ -96,7 +96,7 @@ _______
 
    4. set Origin (hvor på dit emne skal figuren skæres ud)
 
-      ![set origin](./media/set origin.png)
+      ![set origin](./media/set-origin.png)
 
       1. for at flytte origin bruger man piletasterne på den tilsluttede computer for at ændre X og Y positionen
       2. positionen kan flyttes hurtigere ved at holde "shift" + piletast eller langsommere med "cmd"+piletast
