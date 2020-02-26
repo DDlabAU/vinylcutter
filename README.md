@@ -69,7 +69,7 @@ _______
 
       1. knivens spids skal kun lige nøjagtigt røre ved matten der ligger under vinyl-emnet
 
-         ![image-20200212102324569](/Users/Pacour/Developer/Vinylcutter_DD-Lab_Github guide/media/kniv-montering.png)
+         ![image-20200212102324569](./media/kniv-montering.png)
 
       Nu er maskinen klar til at skærer i dit valgte stykke vinyl.
 
