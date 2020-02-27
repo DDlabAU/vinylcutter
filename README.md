@@ -14,9 +14,9 @@ Inden du går i gang, er her et par ting, der er smarte at huske på:
 
 - Inden du skærer med vinyl-cutteren skal du flytte den lidt ud fra væggen.
 - Et godt cut afhænger af rigtig mange faktorer: knivens dybde, hvor jævnt papiret er placeret, hvilken type vinyl, hvor meget force der er indstillet.
-- Vinylcutteren har et effektivt skæreområde på 700x260mm
+- Vinylcutteren har et effektivt skæreområde på 700x260mm.
 
-*Hvis du gør dig egne erfaringer med at bruge vinylcutteren, så giv dem meget gerne videre til labbet og dine øvrige medstuderende*
+*Hvis du gør dig egne erfaringer med at bruge vinylcutteren, så giv dem meget gerne videre til labbet og dine øvrige medstuderende.*
 
 ## Suggested Cut Settings for various Materials on KNK Maxx Air
 
@@ -24,7 +24,7 @@ I linket [her](https://www.iloveknk.com/Support/Settings/Suggested-MaxxAir-Setti
 
 | Material Type                             | Material Brand or Source                                     | Blade | Force (f) | Speed (v) | # of Passes | Other Comments                                               |
 | ----------------------------------------- | ------------------------------------------------------------ | ----- | --------- | --------- | ----------- | ------------------------------------------------------------ |
-| Vinyl (BIC Velleda - Adhesive-Whiteboard) | https://www.amazon.co.uk/Velleda-50cm-Adhesive-Whiteboard-Roll/dp/B001AO18OW | Red   | 47-56     | 220       | 1           | afhængig af hvor komplex en form man skærer skal man bruge mere eller mindre **Force** |
+| Vinyl (BIC Velleda - Adhesive-Whiteboard) | https://www.amazon.co.uk/Velleda-50cm-Adhesive-Whiteboard-Roll/dp/B001AO18OW | Red   | 47-56     | 220       | 1           | Afhængig af hvor komplex en form man skærer skal man bruge mere eller mindre **Force** |
 
 Alt afhængig af hvilket materiale du bruger skal du altså bruge de korrekte blade, force, speed, etc.
 
@@ -73,11 +73,11 @@ _______
 
       Nu er maskinen klar til at skærer i dit valgte stykke vinyl.
 
-   5. Herefter kligger du på "cutter" inde i SCAL softwaret på computeren.
+   5. Herefter klikker du på "cutter" inde i SCAL softwaret på computeren.
 
    ![cut settings](./media/cut-settings-ddlab.png)
 
-   1. I Cut settings skal du indstille på følgende måde: (som vist).
+   1. I Cut settings skal du indstille på følgende måde (som vist):
 
       1. Cut Mode: Origin Point.
    2. Enable: Cut selection only.
