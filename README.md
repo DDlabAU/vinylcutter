@@ -10,23 +10,23 @@ Hvis der skulle være noget du er i tvivl om i forhold til brugen af vinylcutter
 
 ## Inden du går igang
 
-inden du går i gang, er her et par ting, der er smarte at huske på:
+Inden du går i gang, er her et par ting, der er smarte at huske på:
 
-- inden du skærer med vinyl-cutteren skal du flytte den lidt ud fra væggen.
-- Et godt cut afhænger af rigtig mange faktorer: knivens dybde, hvor jævnt papiret er placeret, hvilken type vinyl, hvor meget force der er indstillet.
-- vinylcutteren har et effektivt skæreområde på 700x260mm
+- Inden du skærer med vinyl-cutteren skal du flytte den lidt ud fra væggen.
+- Et godt cut afhænger af rigtig mange faktorer: knivens dybde, hvor jævnt papiret er placeret, hvilken type vinyl og hvor meget force der er indstillet.
+- Vinylcutteren har et effektivt skæreområde på 700x260mm.
 
-*Hvis du gør dig egne erfaringer med at bruge vinylcutteren, så giv dem meget gerne videre til labbet og dine øvrige medstuderende*
+*Hvis du gør dig egne erfaringer med at bruge vinylcutteren, så giv dem meget gerne videre til labbet og dine øvrige medstuderende.*
 
-## Suggested Cut Settings for various Materials on KNK Maxx Air
+## Anbefalede Cut Settings for forskellige materialetyper
+
+Alt afhængig af hvilket materiale du bruger skal du bruge de korrekte blade, force, speed, osv.
 
 I linket [her](https://www.iloveknk.com/Support/Settings/Suggested-MaxxAir-Settings.pdf) kan du finde alle de bedste cut-settings for forskellige materialer.
 
 | Material Type                             | Material Brand or Source                                     | Blade | Force (f) | Speed (v) | # of Passes | Other Comments                                               |
 | ----------------------------------------- | ------------------------------------------------------------ | ----- | --------- | --------- | ----------- | ------------------------------------------------------------ |
-| Vinyl (BIC Velleda - Adhesive-Whiteboard) | https://www.amazon.co.uk/Velleda-50cm-Adhesive-Whiteboard-Roll/dp/B001AO18OW | Red   | 47-56     | 220       | 1           | afhængig af hvor komplex en form man skærer skal man bruge mere eller mindre **Force** |
-
-alt afhængig af hvilket materiale du bruger skal du altså bruge de korrekte blade, force, speed, etc.
+| Vinyl (BIC Velleda - Adhesive-Whiteboard) | https://www.amazon.co.uk/Velleda-50cm-Adhesive-Whiteboard-Roll/dp/B001AO18OW | Red   | 47-56     | 220       | 1           | Afhængig af hvor komplex en form man skærer skal man bruge mere eller mindre **Force** |
 
 _______
 
@@ -41,15 +41,15 @@ _______
 
    ![Figur](./media/Figur.png)
 
-2. når du er klar til at skærer:
+2. Når du er klar til at skære:
 
-   1. skær et stykke vinyl ud.
+   1. Skær et stykke vinyl ud.
 
       ![](./media/skær-ud.jpg)
 
-3. placer dit valgte materiale (vinyl) på matten i vinylcutteren
+3. Placer dit valgte materiale (vinyl) på matten i vinylcutteren.
 
-   1. brug "easy-tac" eller "ReMount"-adheisive spray på emnet, og klæb det fast på matten
+   1. Brug "easy-tac" eller "ReMount"-adheisive spray på emnet, og klæb det fast på matten.
 
       **Vigtigt: Brug kun adhesive-spray lim der kan fjernes igen!!!**
 
@@ -59,34 +59,34 @@ _______
 
       <img src="./media/roller2.jpg" style="zoom: 33%;" />
 
-4. Vælg det korrekte blade i forhold til materiale (hvis det er vinyl så vælges den røde kniv)
+4. Vælg det korrekte blad i forhold til materiale (hvis det er vinyl så vælges den røde kniv).
 
    ![knive](./media/knive.png)
 
-   4. kniven monteres da i vinylcutteren, og knivens dybde indstilles
+   4. Kniven monteres da i vinylcutteren, og knivens dybde indstilles.
 
       ![](./media/kniv-montering-irl.png)
 
-      1. knivens spids skal kun lige nøjagtigt røre ved matten der ligger under vinyl-emnet
+      1. Knivens spids skal kun lige nøjagtigt røre ved matten der ligger under vinyl-emnet.
 
          ![image-20200212102324569](./media/kniv-montering.png)
 
-      Nu er maskinen klar til at skærer i dit valgte stykke vinyl.
+      Nu er maskinen klar til at skære i dit valgte stykke vinyl.
 
-   5. herefter kligger du på "cutter" inde i SCAL softwaret på computeren.
+   5. Herefter klikker du på "cutter" inde i SCAL softwaret på computeren.
 
    ![cut settings](./media/cut-settings-ddlab.png)
 
-   1. I Cut settings skal du indstille på følgende måde: (som vist)
+   1. I Cut settings skal du indstille på følgende måde (som vist):
 
-      1. Cut Mode: Origin Point
-   2. enable: Cut selection only
+      1. Cut Mode: Origin Point.
+   2. Enable: Cut selection only.
 
-   2. hvis du skal skære i vinyl du har fået i DD-lab, Så vælg preset: "DD-lab: Vinyl".
+   2. Hvis du skal skære i vinyl du har fået i DD-lab, Så vælg preset: "DD-lab: Vinyl".
 
    1. DD-Lab: Vinyl = v: 220, f:59, multicut:0.
 
-   3. hvis du skærer i et andet materiale så skal du manuelt indstille:
+   3. Hvis du skærer i et andet materiale så skal du manuelt indstille:
 
       - speed(v), 
 
@@ -94,31 +94,31 @@ _______
 
       - multicut
 
-   4. set Origin (hvor på dit emne skal figuren skæres ud)
+   4. Set Origin (hvor på dit emne skal figuren skæres ud)
 
       ![set origin](./media/set-origin.png)
 
-      1. for at flytte origin bruger man piletasterne på den tilsluttede computer for at ændre X og Y positionen
-      2. positionen kan flyttes hurtigere ved at holde "shift" + piletast eller langsommere med "cmd"+piletast
-      3. når du er tilfreds med positionen trykker du "OK"
+      1. For at flytte origin bruger man piletasterne på den tilsluttede computer for at ændre X og Y positionen.
+      2. Positionen kan flyttes hurtigere ved at holde "shift" + piletast eller langsommere med "cmd"+piletast.
+      3. Når du er tilfreds med positionen trykker du "OK".
 
-   5. Nu er du klar til at skære, tryk på "Cut"
+   5. Når du er klar til at skære, tryk på "Cut".
 
 5. Efter at du har skåret din figur ud med vinylcutteren skal der ryddes op.
 
-   1. fjern dit fastspændte vinyl fra vinylcutteren.
+   1. Fjern dit fastspændte vinyl fra vinylcutteren.
 
-   2. rester fra adhesive-spray skal fjernes med klud, alkohol og kno-fedt
+   2. Rester fra adhesive-spray skal fjernes med klud, alkohol og kno-fedt.
 
-      1. fjern matten fra vinylcutter før rengørring.
+      1. Fjern matten fra vinylcutter før rengørring.
 
       ![](./media/cleanup.jpg)
 
-   3. kniven afmonteres og alt grej opryddes og kommes i den gule vinylcutter kasse.
+   3. Kniven afmonteres og alt grej opryddes og kommes i den gule vinylcutter kasse.
 
-   4. skub vinylcutteren tilbage ind under computeren.
+   4. Skub vinylcutteren tilbage ind under computeren.
 
-## sources:
+## Sources:
 
 - https://www.doityourself.com/stry/cellulose-adhesive (fjerne spray lim)
 - https://www.iloveknk.com/0um/MaxxAir-with-MTC/KNKMaxxAir-with-MTC-UM.pdf
