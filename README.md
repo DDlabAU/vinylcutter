@@ -6,6 +6,17 @@ Før du går igang med at bruge vinylcutteren, er det vigtigt, at du har sat dig
 
 Hvis der skulle være noget, du er i tvivl om i forhold til brugen af vinylcutteren, så kontakt en ansat i DDLab, enten i åbningstiden eller på mail.
 
+## Indhold
+- [Inden du går igang](#inden-du-går-igang)
+- [Anbefalede skæreindstillinger](#anbefalede-skæreindstillinger)
+- [Sådan bruges vinylcutteren](#sådan-bruges-vinylcutteren)
+  - [Design din figur](#design-din-figur)
+  - [Forbered dit vinyl](#forbered-dit-vinyl)
+  - [Forbered kniven](#forbered-kniven)
+  - [Indstil på computeren og skær](#indstil-på-computeren-og-skær)
+- [Efter du har skåret](#efter-du-har-skåret)
+- [Sources](#sources)
+
 ## Inden du går igang
 Inden du går i gang, er her et par ting, der er smarte at huske på:
 
@@ -28,7 +39,7 @@ I denne vejledning går vi ud fra at du vil skære vinyl.
 
 _______
 
-## Sådan bruger vinylcutteren
+## Sådan bruges vinylcutteren
 ### Design din figur
 For at kunne lave noget man kan skærer på vinylcutteren, skal man bruge softwaret [SCAL(sure cuts a lot)](http://surecutsalot.com/software/software_scal.html). Det kan bruges fra Computeren, der er placeret over vinylcutteren.
 
@@ -37,7 +48,7 @@ For at kunne lave noget man kan skærer på vinylcutteren, skal man bruge softwa
 
 ![Figur](./media/Figur.png)
 
-### Forebered dit vinyl
+### Forbered dit vinyl
 Eter du har designet din fil, skal du vælge og forberede et stykke vinyl til skæring:
 
 1. Skær eller klip et passende stykke vinyl ud af en rulle.
