@@ -1,7 +1,6 @@
 # Vinylcutter i DD Lab
 ![](https://i.pinimg.com/originals/67/19/80/671980f258975d6b4f6d97a704e83e37.jpg)
 
-## Brug af Vinylcutter i DD Lab
 Før du går igang med at bruge vinylcutteren, er det vigtigt, at du har sat dig godt ind i, hvordan den virker. Det kan du læse om i denne guide.
 
 Hvis der skulle være noget, du er i tvivl om i forhold til brugen af vinylcutteren, så kontakt en ansat i DDLab, enten i åbningstiden eller på mail.
