@@ -54,7 +54,7 @@ Eter du har designet din fil, skal du vælge og forberede et stykke vinyl til sk
 
 - Brug rullen, til at presse emnet ned mod måtten, og fjerne luftebobler, så det klæber sig ordentligt fast.
 
-<img src="./media/roller2.jpg" style="zoom: 33%;" />
+  <img src="./media/roller2.jpg" style="zoom: 33%;" />
 
 3. Slå til sidst de 4 hjul ned, så måtten er fastspændt til maskinen. Det fungerer bedst hvis hjulene er fordelt jævnt over måttens overflade.
 
@@ -66,11 +66,11 @@ Hvis du skal skære i vinyl så vælges den røde kniv. Hvis du vil skære i and
 
 - Kniven monteres da i vinylcutteren og knivens dybde indstilles.
 
-![](./media/kniv-montering-irl.png)
+  ![](./media/kniv-montering-irl.png)
 
 - Knivens spids skal kun lige nøjagtigt røre ved måtten der ligger under vinyl-emnet.
 
-![image-20200212102324569](./media/kniv-montering.png)
+  ![image-20200212102324569](./media/kniv-montering.png)
 
 Nu er maskinen klar til at skære i dit valgte stykke vinyl.
 
@@ -112,9 +112,9 @@ Efter at du har skåret din figur ud med vinylcutteren skal der ryddes op:
 
 2. Rester fra adhesive-spray skal fjernes med klud, alkohol og kno-fedt:
 
-   - Fjern måtten fra vinylcutter før rengørring. Og læg den tilbage efter.
-
-   ![](./media/cleanup.jpg)
+   - Fjern måtten fra vinylcuttereren før rengørring. Og læg den tilbage efter.
+   
+    ![](./media/cleanup.jpg)
 
 3. Kniven afmonteres og alt grej opryddes og kommes i den gule vinylcutter kasse.
 
