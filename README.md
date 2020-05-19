@@ -32,6 +32,8 @@ _______
 
 ## Sådan bruger vinylcutteren
 
+### Design din figur
+
 1. Design din figur i [SCAL(sure cuts a lot)](http://surecutsalot.com/software/software_scal.html)!
 
    2. For at kunne lave noget man kan skærer på vinylcutteren, skal man bruge softwaret [SCAL(sure cuts a lot)](http://surecutsalot.com/software/software_scal.html). Det kan bruges fra Computeren der er placeret over vinylcutteren.
@@ -40,6 +42,8 @@ _______
       - Åbner SCAL, og designer din fil.
 
    ![Figur](./media/Figur.png)
+
+### Forebered dit vinyl
 
 2. Når du er klar til at skære:
 
@@ -58,6 +62,8 @@ _______
    2. Brug rullen, til at presse emnet ned mod matten, og fjerne luftebobler, så det klæber sig fast på vinylcutterens mat.
 
       <img src="./media/roller2.jpg" style="zoom: 33%;" />
+      
+### Forbered kniven
 
 4. Vælg det korrekte blad i forhold til materiale (hvis det er vinyl så vælges den røde kniv).
 
@@ -72,6 +78,8 @@ _______
          ![image-20200212102324569](./media/kniv-montering.png)
 
       Nu er maskinen klar til at skære i dit valgte stykke vinyl.
+
+### Indstil på computeren og skær 
 
    5. Herefter klikker du på "cutter" inde i SCAL softwaret på computeren.
 
@@ -103,6 +111,8 @@ _______
       3. Når du er tilfreds med positionen trykker du "OK".
 
    5. Når du er klar til at skære, tryk på "Cut".
+
+### Efter du har skåret
 
 5. Efter at du har skåret din figur ud med vinylcutteren skal der ryddes op.
 
