@@ -1,1 +1,5 @@
-theme: jekyll-theme-tactile
+theme: jekyll-theme-dinky
+title: Vinylcutter
+description: Vejledning til brug af DD Labs vinylcutter  
+logo: cricut-maker-3.jpeg
+show_downloads: false
