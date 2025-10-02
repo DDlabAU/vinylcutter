@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="da">
 <head>
   <meta charset="UTF-8" />
@@ -75,7 +75,7 @@
     .teal   { border-color:#10B981; background:#ecfdf5; }
     .indigo { border-color:#6366F1; background:#eef2ff; }
 
-    /* Responsive: on small screens, drop the fixed menu above content */
+    /* for mobiltelefoner */
     @media (max-width: 900px) {
       .layout { 
         max-width: 100%;
