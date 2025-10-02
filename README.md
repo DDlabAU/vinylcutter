@@ -16,10 +16,9 @@
 
     /* CONTENT LAYOUT – centered container; no grid */
     .layout {
-      max-width: 1500px;
       margin: 0 auto;
       padding: 16px 20px 40px;
-      padding-right: 100px; /* reserve space for fixed sidebar (≈200px + gap) */
+      padding-right: 50px; /* reserve space for fixed sidebar (≈200px + gap) */
     }
 
     main { min-width: 0; }
