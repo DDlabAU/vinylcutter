@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="da">
 <head>
   <meta charset="UTF-8" />
@@ -17,7 +16,7 @@
     /* Layout: content + right sidebar */
     .layout {
       display: grid;
-      grid-template-columns: 1fr 280px; /* main | sidebar */
+      position: fixed; right: 0; top: 20%; /* main | sidebar */
       gap: 20px;
       align-items: start;
       max-width: 1100px;
@@ -27,26 +26,30 @@
 
     main { min-width: 0; }
 
-    /* Sidebar (sticky) */
-    aside { position: sticky; top: 12px; align-self: start; height: fit-content; }
-    .toc {
-      border: 2px solid #e5e7eb;
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-    }
-    .toc h3 { margin: 6px 8px 10px; font-size: 16px; font-weight: 700; }
-    .toc a {
-      display: block;
-      margin: 6px 6px;
-      padding: 8px 10px;
-      text-decoration: none;
-      color: #333;
-      border-radius: 8px;
-      transition: box-shadow 0.25s ease, background 0.25s ease, color 0.25s ease;
-      outline: none;
-    }
+   /* Remove grid column for sidebar */
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 20px 40px;
+}
+
+/* Fixed navigation menu */
+aside {
+  position: fixed;
+  right: 10px;      /* 10px from the scrollbar */
+  top: 20%;         /* start about 20% down the page */
+  width: 200px;     /* fixed width */
+  z-index: 2000;
+}
+
+.toc {
+  border: 2px solid #e5e7eb;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
     /* Hover glow */
     .toc a:hover { background: #e0f2fe; box-shadow: 0 0 8px rgba(33,150,243,0.5); }
     /* Pressed look */
