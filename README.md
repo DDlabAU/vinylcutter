@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="da">
 <head>
   <meta charset="UTF-8" />
@@ -13,60 +14,58 @@
       color: #111;
     }
 
-    /* Layout: content + right sidebar */
+    /* CONTENT LAYOUT – centered container; no grid */
     .layout {
-      display: grid;
-      position: fixed; right: 0; top: 20%; /* main | sidebar */
-      gap: 20px;
-      align-items: start;
       max-width: 1100px;
       margin: 0 auto;
       padding: 16px 20px 40px;
+      padding-right: 260px; /* reserve space for fixed sidebar (≈200px + gap) */
     }
 
     main { min-width: 0; }
 
-   /* Remove grid column for sidebar */
-.layout {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 16px 20px 40px;
-}
+    /* FIXED SIDEBAR hugging the scrollbar */
+    aside {
+      position: fixed;
+      right: 10px;     /* distance from scrollbar */
+      top: 20%;        /* vertical starting point */
+      width: 200px;
+      z-index: 2000;
+    }
 
-/* Fixed navigation menu */
-aside {
-  position: fixed;
-  right: 10px;      /* 10px from the scrollbar */
-  top: 20%;         /* start about 20% down the page */
-  width: 200px;     /* fixed width */
-  z-index: 2000;
-}
+    .toc {
+      border: 2px solid #e5e7eb;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
 
-.toc {
-  border: 2px solid #e5e7eb;
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-}
+    .toc h3 {
+      margin: 6px 8px 10px;
+      font-size: 16px;
+      font-weight: 700;
+    }
 
-    /* Hover glow */
-    .toc a:hover { background: #e0f2fe; box-shadow: 0 0 8px rgba(33,150,243,0.5); }
-    /* Pressed look */
+    .toc a {
+      display: block;
+      margin: 6px 6px;
+      padding: 8px 10px;
+      text-decoration: none;
+      color: #333;
+      border-radius: 8px;
+      transition: box-shadow 0.25s ease, background 0.25s ease, color 0.25s ease;
+      outline: none;
+    }
+
+    /* Hover glow / pressed / focus / current */
+    .toc a:hover  { background: #e0f2fe; box-shadow: 0 0 8px rgba(33,150,243,0.5); }
     .toc a:active { background: #2196F3; color: #fff; box-shadow: inset 0 2px 6px rgba(0,0,0,0.3); }
-    /* Keyboard focus */
-    .toc a:focus { box-shadow: 0 0 0 3px rgba(33,150,243,.35); }
-    /* Current section */
+    .toc a:focus  { box-shadow: 0 0 0 3px rgba(33,150,243,.35); }
     .toc a.active { background: #2196F3; color: #fff; }
 
     /* Section boxes */
-    .box {
-      border: 2px solid;
-      padding: 15px;
-      border-radius: 10px;
-      margin: 20px 0;
-      background: #fff;
-    }
+    .box { border: 2px solid; padding: 15px; border-radius: 10px; margin: 20px 0; background: #fff; }
     .green  { border-color:#4CAF50; background:#f0fff0; }
     .blue   { border-color:#2196F3; background:#f0f8ff; }
     .orange { border-color:#FF9800; background:#fff8e1; }
@@ -74,11 +73,11 @@ aside {
     .teal   { border-color:#10B981; background:#ecfdf5; }
     .indigo { border-color:#6366F1; background:#eef2ff; }
 
-    /* Responsive */
+    /* Responsive: on small screens, drop the fixed menu above content */
     @media (max-width: 900px) {
-      .layout { grid-template-columns: 1fr; }
-      aside { position: static; order: -1; }
-      .toc { margin-bottom: 12px; }
+      .layout { padding-right: 20px; } /* undo sidebar space */
+      aside { position: static; width: auto; margin: 0 20px 12px; }
+      .toc { width: 100%; }
     }
 
     /* Respect reduced motion */
@@ -168,7 +167,7 @@ aside {
       </div>
     </main>
 
-    <!-- RIGHT SIDEBAR NAV -->
+    <!-- FIXED RIGHT SIDEBAR NAV -->
     <aside aria-label="Indholdsfortegnelse">
       <nav class="toc">
         <h3>Navigation</h3>
@@ -183,14 +182,14 @@ aside {
     </aside>
   </div>
 
-  <!-- Scrollspy: highlight current section (single, clean version) -->
+  <!-- Scrollspy: highlight current section -->
   <script>
     const sections = document.querySelectorAll('#top, #intro, #mats, #general, #specific, #software, #inspiration');
     const navLinks = document.querySelectorAll('.toc a');
 
     function onScroll() {
       let current = 'top';
-      const offset = 120; // tune if needed
+      const offset = 120; // adjust if needed
       sections.forEach(sec => {
         const rectTop = sec.getBoundingClientRect().top;
         if (rectTop - offset <= 0) current = sec.id || 'top';
