@@ -5,6 +5,8 @@
 I labbet er det muligt at bruge vinylskærer til skære vinyl ud eller til at printe og skære klistermærker
 <br><br>
 
+<h1>Tilgængelige måtter</h1>
+
 <b>LightGrip</b> – til lette materialer som printerpapir, tyndt karton eller vellum. Holder fast uden at rive.
 <br>
 <b>StandardGrip</b> – til almindelige materialer som karton, vinyl og jern-på-folie. Den mest brugte “allround” måtte.
