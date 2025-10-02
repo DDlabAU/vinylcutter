@@ -16,15 +16,15 @@
 
     /* CONTENT LAYOUT – centered container; no grid */
     .layout {
-      max-width: 1100px;
+      max-width: 1500px;
       margin: 0 auto;
       padding: 16px 20px 40px;
-      padding-right: 260px; /* reserve space for fixed sidebar (≈200px + gap) */
+      padding-right: 100px; /* reserve space for fixed sidebar (≈200px + gap) */
     }
 
     main { min-width: 0; }
 
-    /* FIXED SIDEBAR hugging the scrollbar */
+
     aside {
       position: fixed;
       right: 10px;     /* distance from scrollbar */
@@ -58,13 +58,13 @@
       outline: none;
     }
 
-    /* Hover glow / pressed / focus / current */
+
     .toc a:hover  { background: #e0f2fe; box-shadow: 0 0 8px rgba(33,150,243,0.5); }
     .toc a:active { background: #2196F3; color: #fff; box-shadow: inset 0 2px 6px rgba(0,0,0,0.3); }
     .toc a:focus  { box-shadow: 0 0 0 3px rgba(33,150,243,.35); }
     .toc a.active { background: #2196F3; color: #fff; }
 
-    /* Section boxes */
+
     .box { border: 2px solid; padding: 15px; border-radius: 10px; margin: 20px 0; background: #fff; }
     .green  { border-color:#4CAF50; background:#f0fff0; }
     .blue   { border-color:#2196F3; background:#f0f8ff; }
