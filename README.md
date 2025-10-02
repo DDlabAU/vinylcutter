@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Vinylskærer i DDlab</title>
   <style>
     html { scroll-behavior: smooth; }
+    *, *::before, *::after { box-sizing: border-box; }
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
       margin: 0;
-      padding: 0;
       background: #fafafa;
       color: #111;
     }
@@ -17,29 +17,18 @@
     /* Layout: content + right sidebar */
     .layout {
       display: grid;
-      grid-template-columns: 1fr 280px; /* main | sidebar width */
+      grid-template-columns: 1fr 280px; /* main | sidebar */
       gap: 20px;
       align-items: start;
-    }
-
-    .container {
       max-width: 1100px;
       margin: 0 auto;
       padding: 16px 20px 40px;
     }
 
-    main {
-      min-width: 0; /* prevent overflow on narrow screens */
-    }
+    main { min-width: 0; }
 
-    /* Sidebar (sticky “box” on the right) */
-    aside {
-      position: sticky;   /* follows while scrolling */
-      top: 12px;          /* distance from top when stuck */
-      align-self: start;
-      height: fit-content;
-    }
-
+    /* Sidebar (sticky) */
+    aside { position: sticky; top: 12px; align-self: start; height: fit-content; }
     .toc {
       border: 2px solid #e5e7eb;
       background: #ffffff;
@@ -47,43 +36,27 @@
       padding: 12px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.06);
     }
-
-    .toc h3 {
-      margin: 6px 8px 10px;
-      font-size: 16px;
-      font-weight: 700;
-    }
-
+    .toc h3 { margin: 6px 8px 10px; font-size: 16px; font-weight: 700; }
     .toc a {
-      display: block;            /* one link per line */
+      display: block;
       margin: 6px 6px;
       padding: 8px 10px;
       text-decoration: none;
       color: #333;
       border-radius: 8px;
-      transition: all 0.25s ease;
+      transition: box-shadow 0.25s ease, background 0.25s ease, color 0.25s ease;
+      outline: none;
     }
-
     /* Hover glow */
-    .toc a:hover {
-      background: #e0f2fe;
-      box-shadow: 0 0 8px rgba(33, 150, 243, 0.5);
-    }
+    .toc a:hover { background: #e0f2fe; box-shadow: 0 0 8px rgba(33,150,243,0.5); }
+    /* Pressed look */
+    .toc a:active { background: #2196F3; color: #fff; box-shadow: inset 0 2px 6px rgba(0,0,0,0.3); }
+    /* Keyboard focus */
+    .toc a:focus { box-shadow: 0 0 0 3px rgba(33,150,243,.35); }
+    /* Current section */
+    .toc a.active { background: #2196F3; color: #fff; }
 
-    /* Pressed look while clicking */
-    .toc a:active {
-      background: #2196F3;
-      color: #fff;
-      box-shadow: inset 0 2px 6px rgba(0,0,0,0.3);
-    }
-
-    /* “You are here” marker */
-    .toc a.active {
-      background: #2196F3;
-      color: #fff;
-    }
-
-    /* Section box styles (your colored callouts) */
+    /* Section boxes */
     .box {
       border: 2px solid;
       padding: 15px;
@@ -98,39 +71,36 @@
     .teal   { border-color:#10B981; background:#ecfdf5; }
     .indigo { border-color:#6366F1; background:#eef2ff; }
 
-    /* Responsive: move sidebar on top for small screens */
+    /* Responsive */
     @media (max-width: 900px) {
-      .layout {
-        grid-template-columns: 1fr; /* single column */
-      }
-      aside {
-        position: static; /* no sticky on small screens */
-        order: -1;        /* show the menu above content */
-      }
-      .toc {
-        margin-bottom: 12px;
-      }
+      .layout { grid-template-columns: 1fr; }
+      aside { position: static; order: -1; }
+      .toc { margin-bottom: 12px; }
+    }
+
+    /* Respect reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .toc a { transition: none; }
     }
   </style>
 </head>
 <body>
-
   <div id="top"></div>
 
-  <div class="container layout">
-
+  <div class="layout">
     <!-- MAIN CONTENT -->
     <main>
       <a href="cricut-maker-3.jpeg" target="_blank" rel="noopener">
-        <img src="cricut-maker-3.jpeg" alt="logo" style="max-width:100%; height:auto; border-radius:10px;">
+        <img src="cricut-maker-3.jpeg" alt="Cricut Maker 3" style="max-width:100%; height:auto; border-radius:10px;">
       </a>
 
       <h1 id="intro">Vinylskærer i DDlab</h1>
       <div class="box green">
         Cricut Maker 3 er en avanceret skæremaskine, der kan håndtere mere end 300 forskellige materialer – fra tyndt papir og vinyl til stof, læder og tyndt træ. Den giver dig mulighed for at lave alt fra simple klistermærker til komplekse prototyper med høj præcision.
-        <br> Maskinen kan både skære, præge, gravere og ridse, og med funktionen print-then-cut kan du printe dine egne designs og derefter få dem skåret ud i perfekte konturer.
-        <br> Alt styres gennem softwaren <b>Design Space</b>, hvor du kan uploade dine egne filer eller bruge færdige skabeloner. 
-        <br><br> Det gør Cricut Maker 3 til et fleksibelt værktøj – uanset om du vil lave kreative projekter, personlige gaver eller eksperimentere med nye materialer i værkstedet.
+        <br>Maskinen kan både skære, præge, gravere og ridse, og med funktionen print-then-cut kan du printe dine egne designs og derefter få dem skåret ud i perfekte konturer.
+        <br>Alt styres gennem softwaren <b>Design Space</b>, hvor du kan uploade dine egne filer eller bruge færdige skabeloner.
+        <br><br>Det gør Cricut Maker 3 til et fleksibelt værktøj – uanset om du vil lave kreative projekter, personlige gaver eller eksperimentere med nye materialer i værkstedet.
       </div>
 
       <div id="mats" class="box blue">
@@ -150,7 +120,7 @@
         <a href="https://cricut.com/blog/which-cricut-mat-should-you-use/" target="_blank" rel="noopener">Mat Guide (officiel)</a><br><br>
 
         <a href="mats.png" target="_blank" rel="noopener">
-          <img src="mats.png" alt="mats" style="max-width:100%; height:auto; border-radius:10px;">
+          <img src="mats.png" alt="Cricut måtter" style="max-width:100%; height:auto; border-radius:10px;">
         </a>
       </div>
 
@@ -208,20 +178,19 @@
         <a href="#inspiration">Inspiration</a>
       </nav>
     </aside>
-
   </div>
 
-  <!-- Scrollspy: highlight current section -->
+  <!-- Scrollspy: highlight current section (single, clean version) -->
   <script>
-    const sections = document.querySelectorAll('#intro, #mats, #general, #specific, #software, #inspiration, #top');
+    const sections = document.querySelectorAll('#top, #intro, #mats, #general, #specific, #software, #inspiration');
     const navLinks = document.querySelectorAll('.toc a');
 
     function onScroll() {
       let current = 'top';
-      const offset = 90; // adjust if you change spacing
+      const offset = 120; // tune if needed
       sections.forEach(sec => {
-        const top = sec.getBoundingClientRect().top;
-        if (top - offset <= 0) current = sec.id || 'top';
+        const rectTop = sec.getBoundingClientRect().top;
+        if (rectTop - offset <= 0) current = sec.id || 'top';
       });
       navLinks.forEach(link => {
         link.classList.toggle('active', link.getAttribute('href') === '#' + current);
@@ -233,4 +202,3 @@
   </script>
 </body>
 </html>
-
