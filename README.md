@@ -79,7 +79,10 @@
 
   <div id="top"></div>
 
-  [![logo](cricut-maker-3.jpeg)](https://github.com/DDlabAU/vinylcutter/blob/master/cricut-maker-3.jpeg)
+<a href="cricut-maker-3.jpeg" target="_blank" rel="noopener">
+  <img src="cricut-maker-3.jpeg" alt="logo" style="max-width:100%; height:auto;">
+</a>
+
 
   <h1 id="intro">Vinylskærer i DDlab</h1>
   <div class="box green">
@@ -105,7 +108,10 @@ Alt styres gennem softwaren Design Space, hvor du kan uploade dine egne filer el
     <br><br>
     <a href="https://cricut.com/blog/which-cricut-mat-should-you-use/">Mat Guide (officiel)</a><br>
     
-    [![Mats](mats.png)](https://github.com/DDlabAU/vinylcutter/blob/master/mats.png)
+<a href="mats.png" target="_blank" rel="noopener">
+  <img src="mats.png" alt="logo" style="max-width:100%; height:auto;">
+</a>
+
   
   </div>
 
