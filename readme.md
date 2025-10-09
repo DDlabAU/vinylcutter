@@ -162,6 +162,8 @@
         <p>Hent software for at komme i gang med Vinylcutter'en.</p>
         <p><a href="https://design.cricut.com" target="_blank" rel="noopener">https://design.cricut.com</a></p>
       </div>
+       <h3>Links</h3>
+      [Print-Then-Cut](https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space)
 
       <div id="inspiration" class="box indigo">
         <h2>Inspiration</h2>
