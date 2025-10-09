@@ -2,7 +2,7 @@
 <html lang="da">
 <head>
   <meta charset="UTF-8" />
-  <title>Vinylskærer i DDlab "Cricut Maker 3"</title>
+  <title>Vinylskærer i DDlab</title>
   <style>
     html { scroll-behavior: smooth; }
     *, *::before, *::after { box-sizing: border-box; }
@@ -100,7 +100,7 @@
         <img src="cricut-maker-3.jpeg" alt="Cricut Maker 3" style="max-width:100%; height:auto; border-radius:10px;">
       </a>
 
-      <h1 id="intro">Vinylskærer i DDlab</h1>
+      <h1 id="intro">Cricut Maker 3</h1>
       <div class="box green">
         Cricut Maker 3 er en avanceret skæremaskine, der kan håndtere mere end 300 forskellige materialer – fra tyndt papir og vinyl til stof, læder og tyndt træ. Den giver dig mulighed for at lave alt fra simple klistermærker til komplekse prototyper med høj præcision.
         <br>Maskinen kan både skære, præge, gravere og ridse, og med funktionen print-then-cut kan du printe dine egne designs og derefter få dem skåret ud i perfekte konturer.
@@ -161,8 +161,14 @@
         <h2>Software</h2>
         <p>Hent software for at komme i gang med Vinylcutter'en. Den rigtige version er den som er kompatibel med "Cricut Maker 3"</p>
         <p><a href="https://design.cricut.com" target="_blank" rel="noopener">https://design.cricut.com</a></p>
-           <h3>Links</h3>
-      (Print-Then-Cut)[https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space]
+           <h4>Links</h4>
+      <p>
+  <a href="https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space" 
+     target="_blank" 
+     rel="noopener">
+    Print-Then-Cut
+  </a>
+</p>
       </div>
     
 
