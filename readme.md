@@ -182,6 +182,14 @@
       <div id="inspiration" class="box indigo">
         <h2>Inspiration</h2>
         <p><a href="https://www.youtube.com/@Cricut/videos" target="_blank" rel="noopener">https://www.youtube.com/@Cricut/videos</a></p>
+      <p>
+  <a href="https://help.cricut.com/hc/en-us/articles/360061650414-How-to-use-the-Offset-feature-in-Design-Space" 
+     target="_blank" 
+     rel="noopener">
+    Tilføj offset/outline til dit design
+  </a>
+
+        
         <p>Mere på vej. Har du fundet eller selv skabt noget godt? Send det til os :)</p>
       </div>
     </main>
