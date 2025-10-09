@@ -166,7 +166,7 @@
   <a href="https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space" 
      target="_blank" 
      rel="noopener">
-    Print-Then-Cut
+    Print-Then-Cut (klistermærker)
   </a>
 </p>
       </div>
