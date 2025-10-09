@@ -2,7 +2,7 @@
 <html lang="da">
 <head>
   <meta charset="UTF-8" />
-  <title>Vinylskærer i DDlab</title>
+  <title>Vinylskærer i DDlab "Cricut Maker 3"</title>
   <style>
     html { scroll-behavior: smooth; }
     *, *::before, *::after { box-sizing: border-box; }
@@ -159,11 +159,12 @@
 
       <div id="software" class="box teal">
         <h2>Software</h2>
-        <p>Hent software for at komme i gang med Vinylcutter'en.</p>
+        <p>Hent software for at komme i gang med Vinylcutter'en. Den rigtige version er den som er kompatibel med "Cricut Maker 3"</p>
         <p><a href="https://design.cricut.com" target="_blank" rel="noopener">https://design.cricut.com</a></p>
+           <h3>Links</h3>
+      (Print-Then-Cut)[https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space]
       </div>
-       <h3>Links</h3>
-      [Print-Then-Cut](https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space)
+    
 
       <div id="inspiration" class="box indigo">
         <h2>Inspiration</h2>
