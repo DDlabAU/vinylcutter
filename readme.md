@@ -190,6 +190,12 @@
     Tilføj offset/outline til dit design
   </a>
   </p>
+  <h4>Formål</h4>
+  <p>Skær illustrationer af grænseflader ud i smart-papir eller vinyl – fx skær knapper, ikoner og overlays, du kan flytte rundt på skærmmockups, whiteboards eller fysiske modeller.</p>
+
+<p>Kombinér Cricut-skårne dele (pap, akryl, tyndt træ) med Arduino, MakeyMakey eller sensorer, så du får små, klikbare brugerflader.</p>
+
+<p>Skær logos, skiltning, stickers og etiketter til installationer, udstillinger eller projektdemoer.</p>
         <p>Mere på vej. Har du fundet eller selv skabt noget godt? Send det til os :)</p>
       </div>
     </main>
