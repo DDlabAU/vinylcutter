@@ -106,6 +106,7 @@
         <br>Maskinen kan både skære, præge, gravere og ridse, og med funktionen print-then-cut kan du printe dine egne designs og derefter få dem skåret ud i perfekte konturer.
         <br>Alt styres gennem softwaren <b>Design Space</b>, hvor du kan uploade dine egne filer eller bruge færdige skabeloner.
         <br><br>Det gør Cricut Maker 3 til et fleksibelt værktøj – uanset om du vil lave kreative projekter, personlige gaver eller eksperimentere med nye materialer i værkstedet.
+        <br><br>Maskinen kan findes i DD Lab (kan ikke lånes ud). Alle kan bruge maskinen (kræver ikke kørekort). Spørg en DD Lab ansat om hjælp, for hurtigere at komme i gang. 
       </div>
 
       <div id="mats" class="box blue">
@@ -188,18 +189,16 @@
      rel="noopener">
     Tilføj offset/outline til dit design
   </a>
-
-        
+  </p>
         <p>Mere på vej. Har du fundet eller selv skabt noget godt? Send det til os :)</p>
       </div>
     </main>
 
     <!-- FIXED RIGHT SIDEBAR NAV -->
-    <aside aria-label="Indholdsfortegnelse">
+    <aside aria-label="Menu">
       <nav class="toc">
         <h3>Navigation</h3>
         <a href="#top">Top</a>
-        <a href="#intro">Intro</a>
         <a href="#mats">Tilgængelige måtter</a>
         <a href="#general">Generelt</a>
         <a href="#specific">Specifikt pr. måtte</a>
