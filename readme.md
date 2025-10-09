@@ -165,7 +165,8 @@
 
       <div id="software" class="box teal">
         <h2>Software</h2>
-        <p>Hent software for at komme i gang med Vinylcutter'en. Den rigtige version er den som er kompatibel med "Cricut Maker 3"</p>
+        <p>Hent software for at komme i gang med Vinylcutter'en. Den rigtige version er : "Cricut Maker 3"</p>
+        <p>De essentielle funktioner er GRATIS. Der er add-ons og in-app purchases, dem skal I som udgangspunkt se bort fra.</p>
         <p><a href="https://design.cricut.com" target="_blank" rel="noopener">https://design.cricut.com</a></p>
            <h4>Links</h4>
       <p>
