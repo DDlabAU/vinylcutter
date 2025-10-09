@@ -113,15 +113,23 @@
         <b>LightGrip</b><br>
         til lette materialer som printerpapir, tyndt karton eller vellum. Holder fast uden at rive.
         <br><br>
+        <br>
+        <br>
         <b>StandardGrip</b><br>
         til almindelige materialer som karton, vinyl og jern-på-folie. Den mest brugte “allround” måtte.
         <br><br>
+        <br>
+        <br>
         <b>StrongGrip</b><br>
         til tunge eller meget stive materialer som kraftigt karton, glitterkarton, chipboard eller træfinér.
         <br><br>
+        <br>
+        <br>
         <b>FabricGrip</b><br>
         specielt til stof. Bruges sammen med stofklinger, holder stoffet fast uden at ødelægge fibrene.
         <br><br>
+        <br>
+        <br>
         <a href="https://cricut.com/blog/which-cricut-mat-should-you-use/" target="_blank" rel="noopener">Mat Guide (officiel)</a><br><br>
 
         <a href="mats.png" target="_blank" rel="noopener">
