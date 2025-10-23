@@ -8,14 +8,14 @@
     *, *::before, *::after { box-sizing: border-box; }
     
 @font-face {
-  font-family: 'AUPassata:Light';
-  src: url('font/AUPassata_Light.ttf') format('truetype');
+  font-family: 'AUPLogoBold';
+  src: url('font/AULogoBold.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-body { font-family: 'AUPassata_Light', Arial, sans-serif; }
+body { font-family: 'AULogoBold', Arial, sans-serif; }
 
     /* CONTENT LAYOUT – centered container; no grid */
     .layout {
