@@ -214,7 +214,6 @@ En klar, vandafvisende variant af smart papir – perfekt til etiketter, glas el
 Materiale der overføres med varme (fx strygejern eller varmepresse) på stof, tekstiler eller poser. Fås i mange farver, metallic eller glimmer.
 </p>
 <h4>Flere materialer Cricut Maker 3 kan bruge:</h4>
-  <br>
 Karton og papir (almindelig, glimmer, kraft)<br>
 Stof (med backing)<br>
 Læder og imiteret læder<br>
