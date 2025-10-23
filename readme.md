@@ -196,19 +196,25 @@
     makerstudio
   </a>
   <br>
-  <h3>Eksempler på materialer</h3><br>
+  <h3>Eksempler på materialer</h3>
+  
   <p><b>Smart akryl</b> (permanent)<br>
 Selvklæbende vinyl med stærk lim, beregnet til langtidsholdbare projekter. Tåler vand og sollys og bruges fx på glas, metal, plastik og skilte.<br>
-Smart akryl (flytbar)<br>
+    <br>
+<b>Smart akryl (flytbar)</b><br>
 Ligner den permanente version, men med en mildere lim. Kan fjernes uden at efterlade mærker – velegnet til midlertidig dekoration, vægge eller vinduer.<br>
-Smart papir<br>
+    <br>
+<b>Smart papir</b><br>
 Klæbende bagside, så du kan skære og sætte direkte på projektet uden lim. Bruges til kort, scrapbooking eller klistermærker.<br>
-Smart papir (transparent / vandfast)<br>
+    <br>
+<b>Smart papir</b> (transparent / vandfast)</b><br>
 En klar, vandafvisende variant af smart papir – perfekt til etiketter, glas eller udendørs brug, hvor designet skal tåle fugt.<br>
-Iron-on (varmeoverførsel / HTV)<br>
+    <br>
+<b>Iron-on (varmeoverførsel / HTV)</b><br>
 Materiale der overføres med varme (fx strygejern eller varmepresse) på stof, tekstiler eller poser. Fås i mange farver, metallic eller glimmer.
 </p>
-<p>Flere materialer Cricut Maker 3 kan bruge:<br>
+<h4>Flere materialer Cricut Maker 3 kan bruge:</h4>
+  <br>
 Karton og papir (almindelig, glimmer, kraft)<br>
 Stof (med backing)<br>
 Læder og imiteret læder<br>
