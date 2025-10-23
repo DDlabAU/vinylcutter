@@ -6,16 +6,13 @@
   <style>
     html { scroll-behavior: smooth; }
     *, *::before, *::after { box-sizing: border-box; }
-    
-@font-face {
-  font-family: 'AUPLogoBold';
-  src: url('font/AULogoBold.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-body { font-family: 'AULogoBold', Arial, sans-serif; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: #fafafa;
+      color: #111;
+    }
 
     /* CONTENT LAYOUT – centered container; no grid */
     .layout {
@@ -173,6 +170,18 @@ body { font-family: 'AULogoBold', Arial, sans-serif; }
         <br>
       </div>
 
+    <div id="materiale" class="box pink">
+        <h2>Materiale</h2>
+       
+      <p>
+  <a href="https://auwebshop.au.dk/udstyr/materialer" 
+     target="_blank" 
+     rel="noopener">
+    Webshop
+  </a>
+</p>
+      </div>
+
       <div id="software" class="box teal">
         <h2>Software</h2>
         <p>Hent software for at komme i gang med Vinylcutter'en. Den rigtige version er : "Cricut Maker 3"</p>
@@ -217,6 +226,7 @@ body { font-family: 'AULogoBold', Arial, sans-serif; }
         <a href="#mats">Tilgængelige måtter</a>
         <a href="#general">Generelt</a>
         <a href="#specific">Specifikt pr. måtte</a>
+        <a href="#materiale">Materiale</a>
         <a href="#software">Software</a>
         <a href="#inspiration">Inspiration</a>
       </nav>
