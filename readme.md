@@ -106,7 +106,13 @@
         <br>Maskinen kan både skære, præge, gravere og ridse, og med funktionen print-then-cut kan du printe dine egne designs og derefter få dem skåret ud i perfekte konturer.
         <br>Alt styres gennem softwaren <b>Design Space</b>, hvor du kan uploade dine egne filer eller bruge færdige skabeloner.
         <br><br>Det gør Cricut Maker 3 til et fleksibelt værktøj – uanset om du vil lave kreative projekter, personlige gaver eller eksperimentere med nye materialer i værkstedet.
-        <br><br>Maskinen kan findes i DD Lab (kan ikke lånes ud). Alle kan bruge maskinen (kræver ikke kørekort). Spørg en DD Lab ansat om hjælp, for hurtigere at komme i gang. 
+        <br><br>Maskinen kan findes i DD Lab (kan ikke lånes ud). Spørg en DD Lab ansat om hjælp, for hurtigere at komme i gang. 
+       
+          <a href=" https://www.youtube.com/watch?v=S_hH581tj6M" 
+     target="_blank" 
+     rel="noopener">
+    Start med denne video
+  </a>
       </div>
 
       <div id="mats" class="box blue">
