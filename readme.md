@@ -172,14 +172,25 @@
 
     <div id="materiale" class="box pink">
         <h2>Materiale</h2>
-       
-      <p>
+    <p>Vi har som regel forskellige typer akryl og papir til rådighed. Da vi udelukkende anvender officielle og bedst egnede materialer, er de desværre for dyre til at kunne tilbydes gratis. Derfor skal der betales for materialer i forbindelse med projekter – både undervisningsrelaterede og fritidsprojekter.</p>
+          <p>
   <a href="https://auwebshop.au.dk/udstyr/materialer" 
      target="_blank" 
      rel="noopener">
-    Webshop
+    Betal inde på vores Webshop
   </a>
 </p>
+  
+<h3>Self anskaffet materiale</h3>
+    <p>Det er muligt selv at skaffe materiale, da brugen af maskinen er gratis.<br> Det kræver at man køber kompatibelt materiale af officiel udbyder (eller tilsvarende høj kvalitet)</p>
+
+    <p>Tjek eventuelt:</p>
+        <a href="https://www.elgiganten.dk/computer-kontor/printere-kontor/digital-skaremaskine" 
+     target="_blank" 
+     rel="noopener">
+    Elgiganten
+  </a>
+
       </div>
 
       <div id="software" class="box teal">
