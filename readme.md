@@ -6,13 +6,16 @@
   <style>
     html { scroll-behavior: smooth; }
     *, *::before, *::after { box-sizing: border-box; }
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      background: #fafafa;
-      color: #111;
-    }
+    @font-face {
+  font-family: 'AUPassata';
+  src: url('font/AUPassata_Rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'AUPassata', Arial, sans-serif;
+}
 
     /* CONTENT LAYOUT – centered container; no grid */
     .layout {
