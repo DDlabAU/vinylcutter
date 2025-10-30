@@ -199,10 +199,10 @@
         <p>De essentielle funktioner er GRATIS. Der er add‑ons og in‑app purchases, dem skal I som udgangspunkt se bort fra.</p>
         <p><a class="chip glass" href="https://design.cricut.com" target="_blank" rel="noopener">https://design.cricut.com</a></p>
         <h4>Links</h4>
+        <p><a class="chip glass" href="https://help.cricut.com/hc/en-us/articles/1500007912041-All-About-Smart-Materials" target="_blank" rel="noopener">All about smart materials</a></p>
         <p><a class="chip glass" href="https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space" target="_blank" rel="noopener">Print‑Then‑Cut (klistermærker)</a></p>
       </section>
-        <p><a class="chip glass" href="https://help.cricut.com/hc/en-us/articles/1500007912041-All-About-Smart-Materials" target="_blank" rel="noopener">All about smart materials</a></p>
-      </section>
+        
 
       
 
