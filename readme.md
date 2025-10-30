@@ -201,6 +201,10 @@
         <h4>Links</h4>
         <p><a class="chip glass" href="https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space" target="_blank" rel="noopener">Print‑Then‑Cut (klistermærker)</a></p>
       </section>
+        <p><a class="chip glass" href="https://help.cricut.com/hc/en-us/articles/1500007912041-All-About-Smart-Materials" target="_blank" rel="noopener">All about smart materials</a></p>
+      </section>
+
+      
 
       <section id="inspiration" class="box glass accent-indigo">
         <h2>Inspiration</h2>
