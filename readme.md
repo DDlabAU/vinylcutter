@@ -73,7 +73,6 @@
     header.hero img{border-radius:18px;border:1px solid color-mix(in oklab,#fff 25%, transparent);box-shadow:var(--shadow)}
     header.hero h1{font-size:clamp(28px, 4vw, 44px);line-height:1.1;margin:14px 4px 6px}
     header.hero p{opacity:.9;margin:0 4px 10px}
-    header.box p, header.box li, header.box dd{color:#e9edf7;opacity:.0}
 
     /* Section cards */
     section.box{padding:18px 18px 16px;margin:20px 0;}
