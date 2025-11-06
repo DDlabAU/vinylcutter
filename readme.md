@@ -149,7 +149,7 @@
           <br><br>Maskinen kan findes i DD Lab (kan ikke lånes ud). Spørg en DD Lab ansat om hjælp, for hurtigere at komme i gang.
         </p>
         <p>
-          <a class="chip glass" href=" https://www.youtube.com/watch?v=S_hH581tj6M" target="_blank" rel="noopener">Start med denne video</a>
+          <a class="chip glass" href="https://www.youtube.com/watch?v=S_hH581tj6M" target="_blank" rel="noopener">Start med denne video</a>
         </p>
       </section>
 
@@ -264,7 +264,7 @@
   </div>
 
   <script>
-    const ids = ["top","intro","mats","general","specific","software","inspiration"];
+    const ids = ["top","intro","mats","general","specific","software","materiale","materials-available","inspiration"];
     const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
     const navLinks = [...document.querySelectorAll('.toc a')];
 
