@@ -125,6 +125,54 @@
     @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
       .glass{background:rgba(20,24,38,.88)}
     }
+
+        /* === Neon glow omkring gennemsigtig PNG === */
+    :root{
+      --neon-a: #60a5fa;   /* blå */
+      --neon-b: #a78bfa;   /* violet */
+    }
+    
+    .neon-glow{
+      /* gløden følger PNG'ens alfa-kanter */
+      filter:
+        drop-shadow(0 0 6px  var(--neon-a))
+        drop-shadow(0 0 14px var(--neon-a))
+        drop-shadow(0 0 26px color-mix(in oklab, var(--neon-a) 70%, transparent))
+        drop-shadow(0 0 44px color-mix(in oklab, var(--neon-a) 40%, transparent));
+      animation: neonPulse 4.5s ease-in-out infinite;
+      will-change: filter;
+    }
+    
+    /* Blød farveskift + puls i intensitet */
+    @keyframes neonPulse{
+      0%{
+        filter:
+          drop-shadow(0 0 6px  var(--neon-a))
+          drop-shadow(0 0 14px var(--neon-a))
+          drop-shadow(0 0 26px color-mix(in oklab, var(--neon-a) 70%, transparent))
+          drop-shadow(0 0 44px color-mix(in oklab, var(--neon-a) 40%, transparent));
+      }
+      50%{
+        filter:
+          drop-shadow(0 0 8px  var(--neon-b))
+          drop-shadow(0 0 18px var(--neon-b))
+          drop-shadow(0 0 32px color-mix(in oklab, var(--neon-b) 75%, transparent))
+          drop-shadow(0 0 54px color-mix(in oklab, var(--neon-b) 50%, transparent));
+      }
+      100%{
+        filter:
+          drop-shadow(0 0 6px  var(--neon-a))
+          drop-shadow(0 0 14px var(--neon-a))
+          drop-shadow(0 0 26px color-mix(in oklab, var(--neon-a) 70%, transparent))
+          drop-shadow(0 0 44px color-mix(in oklab, var(--neon-a) 40%, transparent));
+      }
+    }
+    
+    /* Respekt for brugere som foretrækker mindre bevægelse */
+    @media (prefers-reduced-motion: reduce){
+      .neon-glow{ animation: none; }
+    }
+
   </style>
 </head>
 <body>
@@ -134,7 +182,7 @@
     <main>
       <header class="hero">
         <a href="Cricut.png" target="_blank" rel="noopener">
-          <img src="Cricut.png" alt="Cricut Maker 3" />
+          <img class="neon-glow" src="Cricut.png" alt="Cricut Maker 3" />
         </a>
         <h1>Cricut Maker 3</h1>
         <p class="chip glass">DD Lab · Vinylskærer</p>
