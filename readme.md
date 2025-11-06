@@ -114,7 +114,7 @@
     <main>
       <header class="hero">
         <a href="cricut-maker-3.jpeg" target="_blank" rel="noopener">
-          <img src="cricut-maker-3.jpeg" alt="Cricut Maker 3" />
+          <img src="Cricut.png" alt="Cricut Maker 3" />
         </a>
         <h1>Cricut Maker 3</h1>
         <p class="chip glass">DD Lab · Vinylskærer</p>
@@ -177,6 +177,7 @@
         <h3>Self anskaffet materiale</h3>
         <p>Det er muligt selv at skaffe materiale, da brugen af maskinen er gratis. Det kræver at man køber kompatibelt materiale af officiel udbyder (eller tilsvarende høj kvalitet).</p>
         <p>Tjek eventuelt: <a class="chip glass" href="https://www.elgiganten.dk/computer-kontor/printere-kontor/digital-skaremaskine" target="_blank" rel="noopener">Elgiganten</a> <a class="chip glass" href="https://makerstudio.dk/alt-til-cricut-joy_163" target="_blank" rel="noopener">makerstudio</a></p>
+        
         <h3>Eksempler på materialer</h3>
         <p><b>Smart akryl</b> (permanent)<br>Selvklæbende vinyl med stærk lim, beregnet til langtidsholdbare projekter. Tåler vand og sollys og bruges fx på glas, metal, plastik og skilte.</p>
         <p><b>Smart akryl (flytbar)</b><br>Ligner den permanente version, men med en mildere lim. Kan fjernes uden at efterlade mærker.</p>
@@ -231,7 +232,6 @@
     </aside>
   </div>
 
-  <!-- Scrollspy upgraded to IntersectionObserver for stability -->
   <script>
     const ids = ["top","intro","mats","general","specific","software","inspiration"];
     const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
