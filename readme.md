@@ -113,7 +113,7 @@
   <div class="layout">
     <main>
       <header class="hero">
-        <a href="cricut-maker-3.jpeg" target="_blank" rel="noopener">
+        <a href="Cricut.png" target="_blank" rel="noopener">
           <img src="Cricut.png" alt="Cricut Maker 3" />
         </a>
         <h1>Cricut Maker 3</h1>
