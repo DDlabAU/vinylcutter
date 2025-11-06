@@ -212,17 +212,6 @@
         Skumark (foam)<br>
         Vinyl (ikke‑smart, bruges med måtte)<br>
         Transfer tape (til at flytte udskårne designs)</p>
-
-        <h3>Materialer på lager</h3>
-    <p><em>Udvalget kan variere i den nærmeste tid, da vi tester forskellige typer.</em></p>
-    <ul>
-    <li>Almindeligt A4-klistermærkepapir</li>
-    <li>A4-klistermærkepapir, vandfast og skinnende</li>
-    <li>A4-klistermærkepapir, vandfast, skinnende og transparent</li>
-    <li>A4-klistermærkepapir, vandfast og transparent</li>
-    <li>A4-klistermærkepapir, vandfast og hvidt</li>
-    <li>Vinylruller i forskellige farver — både permanent og flytbar</li>
-    </ul>
       </section>
 
     <section id="materials-available" class="box glass accent-teal">
@@ -234,7 +223,7 @@
     <li>A4-klistermærkepapir, vandfast, skinnende og transparent</li>
     <li>A4-klistermærkepapir, vandfast og transparent</li>
     <li>A4-klistermærkepapir, vandfast og hvidt</li>
-    <li>Vinylruller i forskellige farver — både permanent og flytbar</li>
+    <li>Vinylruller i forskellige farver - både permanent og flytbar</li>
     </ul>
     </section>
 
@@ -297,5 +286,71 @@
 
     sections.forEach(sec => observer.observe(sec));
   </script>
+
+  /* --- Liquid glass drip for the right sidebar nav --- */
+.toc{
+  position: relative;        /* allow pseudo-elements to position */
+  overflow: visible;         /* so the drip can hang below */
+}
+
+/* Bulge/meniscus under boksen */
+.toc::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:-18px;              /* hangs below the box */
+  transform:translateX(-50%);
+  width:140px;
+  height:70px;
+  /* copy your glass look */
+  background:
+    linear-gradient(135deg,
+      color-mix(in oklab, #fff 18%, transparent),
+      color-mix(in oklab, #fff 6%, transparent));
+  border:1px solid color-mix(in oklab, #fff 35%, transparent);
+  backdrop-filter:blur(14px) saturate(140%);
+  -webkit-backdrop-filter:blur(14px) saturate(140%);
+  box-shadow:var(--shadow);
+  /* droplet-ish shape */
+  border-radius:50% 50% 60% 60% / 30% 30% 70% 70%;
+}
+
+/* Falling droplet */
+.toc::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:-10px;
+  transform:translateX(-50%);
+  width:18px;
+  height:18px;
+  background:
+    linear-gradient(135deg,
+      color-mix(in oklab, #fff 18%, transparent),
+      color-mix(in oklab, #fff 6%, transparent));
+  border:1px solid color-mix(in oklab, #fff 35%, transparent);
+  backdrop-filter:blur(14px) saturate(140%);
+  -webkit-backdrop-filter:blur(14px) saturate(140%);
+  box-shadow:0 8px 20px rgba(0,0,0,.35);
+  border-radius:50%;
+  animation:drip 3.6s ease-in-out infinite;
+  opacity:.95;
+}
+
+@keyframes drip{
+  0%   { transform:translate(-50%, -4px) scale(0.9); opacity:0; }
+  10%  { opacity:1; }
+  55%  { transform:translate(-50%, 36px) scale(0.95); }
+  90%  { opacity:1; }
+  100% { transform:translate(-50%, 70px) scale(0.6); opacity:0; }
+}
+
+/* Respect motion settings */
+@media (prefers-reduced-motion: reduce){
+  .toc::before{ animation:none; opacity:0; }
+}
+
 </body>
 </html>
+
+
