@@ -212,6 +212,17 @@
         Skumark (foam)<br>
         Vinyl (ikke‑smart, bruges med måtte)<br>
         Transfer tape (til at flytte udskårne designs)</p>
+
+        <h3>Materialer på lager</h3>
+    <p><em>Udvalget kan variere i den nærmeste tid, da vi tester forskellige typer.</em></p>
+    <ul>
+    <li>Almindeligt A4-klistermærkepapir</li>
+    <li>A4-klistermærkepapir, vandfast og skinnende</li>
+    <li>A4-klistermærkepapir, vandfast, skinnende og transparent</li>
+    <li>A4-klistermærkepapir, vandfast og transparent</li>
+    <li>A4-klistermærkepapir, vandfast og hvidt</li>
+    <li>Vinylruller i forskellige farver — både permanent og flytbar</li>
+    </ul>
       </section>
 
       <section id="software" class="box glass accent-indigo">
@@ -223,9 +234,6 @@
         <p><a class="chip glass" href="https://help.cricut.com/hc/en-us/articles/1500007912041-All-About-Smart-Materials" target="_blank" rel="noopener">All about smart materials</a></p>
         <p><a class="chip glass" href="https://help.cricut.com/hc/en-us/articles/360009387274-How-to-Print-Then-Cut-in-Design-Space" target="_blank" rel="noopener">Print‑Then‑Cut (klistermærker)</a></p>
       </section>
-        
-
-      
 
       <section id="inspiration" class="box glass accent-indigo">
         <h2>Inspiration</h2>
