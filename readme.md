@@ -225,6 +225,20 @@
     </ul>
       </section>
 
+    <section id="materials-available" class="box glass accent-teal">
+    <h2>Materialer på lager</h2>
+    <p><em>Udvalget kan variere i den nærmeste tid, da vi tester forskellige typer.</em></p>
+    <ul>
+    <li>Almindeligt A4-klistermærkepapir</li>
+    <li>A4-klistermærkepapir, vandfast og skinnende</li>
+    <li>A4-klistermærkepapir, vandfast, skinnende og transparent</li>
+    <li>A4-klistermærkepapir, vandfast og transparent</li>
+    <li>A4-klistermærkepapir, vandfast og hvidt</li>
+    <li>Vinylruller i forskellige farver — både permanent og flytbar</li>
+    </ul>
+    </section>
+
+
       <section id="software" class="box glass accent-indigo">
         <h2>Software</h2>
         <p>Hent software for at komme i gang med Vinylcutter'en. Den rigtige version er: <b>"Cricut Maker 3"</b></p>
@@ -255,6 +269,7 @@
       <a href="#general">Generelt</a>
       <a href="#specific">Specifikt pr. måtte</a>
       <a href="#materiale">Materiale</a>
+      <a href="#materials-available">Materialer på lager</a>
       <a href="#software">Software</a>
       <a href="#inspiration">Inspiration</a>
     </aside>
