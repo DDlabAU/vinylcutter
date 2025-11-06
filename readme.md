@@ -227,7 +227,6 @@
     </ul>
     </section>
 
-
       <section id="software" class="box glass accent-indigo">
         <h2>Software</h2>
         <p>Hent software for at komme i gang med Vinylcutter'en. Den rigtige version er: <b>"Cricut Maker 3"</b></p>
