@@ -77,7 +77,7 @@
     width: 60%;                
     height: auto;          
     display: block;            
-    margin: 0 auto;          
+    margin: 0 auto 15;          
     border-radius: 18px;
     border: 1px solid color-mix(in oklab, #fff 25%, transparent);
     box-shadow: var(--shadow);
@@ -184,6 +184,7 @@
         <a href="Cricut.png" target="_blank" rel="noopener">
           <img class="neon-glow" src="Cricut.png" alt="Cricut Maker 3" />
         </a>
+        <br>
         <h1>Cricut Maker 3</h1>
         <p class="chip glass">DD Lab · Vinylskærer</p>
       </header>
