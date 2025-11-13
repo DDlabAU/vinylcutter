@@ -2,9 +2,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Vinylskærer i DDlab — Liquid Glass</title>
+  <title>Vinylskærer i DDlab</title>
   <style>
-    /* ===== CSS RESET (lightweight) ===== */
+    /*  CSS  */
     *,*::before,*::after{box-sizing:border-box}
     html{line-height:1.5;-webkit-text-size-adjust:100%;scroll-behavior:smooth}
     body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,"Apple Color Emoji","Segoe UI Emoji";}
@@ -25,7 +25,7 @@
       --shadow: 0 10px 30px rgba(0,0,0,.25);
     }
 
-    /* ===== BACKDROP / LIQUID GLASS UTILS ===== */
+    /* liquid glass */
     .glass{
       background:
         linear-gradient(135deg, color-mix(in oklab, #fff 18%, transparent), color-mix(in oklab, #fff 6%, transparent));
@@ -37,7 +37,7 @@
     }
     .chip{display:inline-block;padding:.25rem .6rem;border-radius:999px;border:1px solid color-mix(in oklab,#fff 25%,transparent);}
 
-    /* ===== BACKGROUND (animated blobs, reduced for motion-sensitive users) ===== */
+    /* background */
     body::before,
     body::after{
       content:"";position:fixed;inset:-20%;z-index:-2;filter:blur(70px);opacity:.6;pointer-events:none;
@@ -121,7 +121,6 @@
       .toc{border-radius:16px}
     }
 
-    /* Fallback if no backdrop-filter support */
     @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
       .glass{background:rgba(20,24,38,.88)}
     }
@@ -266,14 +265,14 @@
     <section id="materials-available" class="box glass accent-teal">
     <h2>Materialer på lager</h2>
     <p><em>Udvalget kan variere i den nærmeste tid, da vi tester forskellige typer.</em></p>
-    <ul>
-    <li>Almindeligt A4-klistermærkepapir</li>
-    <li>A4-klistermærkepapir, vandfast og skinnende</li>
-    <li>A4-klistermærkepapir, vandfast, skinnende og transparent</li>
-    <li>A4-klistermærkepapir, vandfast og transparent</li>
-    <li>A4-klistermærkepapir, vandfast og hvidt</li>
-    <li>Vinylruller i forskellige farver - både permanent og flytbar</li>
-    </ul>
+  <ul>
+  <li>Smart Vinyl Removeable – betales pr. enhed á 10 cm. Fås i hvid og sort.</li>
+  <li>Smart Vinyl Permanent – betales pr. enhed á 10 cm. Fås i hvid.</li>
+  <li>Permanent Vinyl – betales pr. enhed á 10 cm. Fås i sort.</li>
+  <li>Permanent Vinyl – betales pr. ark á 30x30 cm. Farver: 6 assorterede (Aqua, Lilla, Pink, Limegrøn, Gul, Lysblå).</li>
+  <li>Sticky Paper til print og skæring – betales pr. A4 ark. Typer: Transparent, Transparent Holographic, Hvid, Hvid Holographic.</li>
+</ul>
+ <p><a class="chip glass" href="https://auwebshop.au.dk/udstyr/materialer" target="_blank" rel="noopener">Betal inde på vores Webshop</a></p>
     </section>
 
       <section id="software" class="box glass accent-indigo">
