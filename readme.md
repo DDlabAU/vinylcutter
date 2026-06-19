@@ -242,15 +242,15 @@
         <h2>Materiale</h2>
         <p>Vi har som regel forskellige typer akryl og papir til rådighed. Da vi udelukkende anvender officielle og bedst egnede materialer, er de desværre for dyre til at kunne tilbydes gratis. Derfor skal der betales for materialer i forbindelse med projekter – både undervisningsrelaterede og fritidsprojekter.</p>
         <p><a class="chip glass" href="https://auwebshop.au.dk/udstyr/materialer" target="_blank" rel="noopener">Betal inde på vores Webshop</a></p>
-        <h3>Self anskaffet materiale</h3>
+        <h3>Selvanskaffet materiale</h3>
         <p>Det er muligt selv at skaffe materiale, da brugen af maskinen er gratis. Det kræver at man køber kompatibelt materiale af officiel udbyder (eller tilsvarende høj kvalitet).</p>
         <p>Tjek eventuelt: <a class="chip glass" href="https://www.elgiganten.dk/computer-kontor/printere-kontor/digital-skaremaskine" target="_blank" rel="noopener">Elgiganten</a> <a class="chip glass" href="https://makerstudio.dk/alt-til-cricut-joy_163" target="_blank" rel="noopener">makerstudio</a></p>
         
         <h3>Eksempler på materialer</h3>
         <p><b>Smart akryl</b> (permanent)<br>Selvklæbende vinyl med stærk lim, beregnet til langtidsholdbare projekter. Tåler vand og sollys og bruges fx på glas, metal, plastik og skilte.</p>
         <p><b>Smart akryl (flytbar)</b><br>Ligner den permanente version, men med en mildere lim. Kan fjernes uden at efterlade mærker.</p>
-        <p><b>Smart papir</b><br>Klæbende bagside, så du kan skære og sætte direkte på projektet uden lim. Bruges til kort, scrapbooking eller klistermærker.</p>
-        <p><b>Smart papir (transparent / vandfast)</b><br>En klar, vandafvisende variant af smart papir – perfekt til etiketter, glas eller udendørs brug.</p>
+        <p><b>Smart paper</b><br>Klæbende bagside, så du kan skære og sætte direkte på projektet uden lim. Bruges til kort, scrapbooking eller klistermærker.</p>
+        <p><b>Smart paper (transparent / vandfast)</b><br>En klar, vandafvisende variant af smart papir – perfekt til etiketter, glas eller udendørs brug.</p>
         <p><b>Iron‑on (varmeoverførsel / HTV)</b><br>Materiale der overføres med varme på stof, tekstiler eller poser. Fås i mange farver, metallic eller glimmer.</p>
         <h4>Flere materialer Cricut Maker 3 kan bruge:</h4>
         <p>Karton og papir (almindelig, glimmer, kraft)<br>
@@ -266,7 +266,7 @@
     <h2>Materialer på lager</h2>
     <p><em>Udvalget kan variere i den nærmeste tid, da vi tester forskellige typer.</em></p>
   <ul>
-  <li>Smart Vinyl Removeable – betales pr. enhed á 10 cm. Fås i hvid og sort.</li>
+  <li>Smart Vinyl Removable – betales pr. enhed á 10 cm. Fås i hvid og sort.</li>
   <li>Smart Vinyl Permanent – betales pr. enhed á 10 cm. Fås i hvid.</li>
   <li>Permanent Vinyl – betales pr. enhed á 10 cm. Fås i sort.</li>
   <li>Permanent Vinyl – betales pr. ark á 30x30 cm. Farver: 6 assorterede (Aqua, Lilla, Pink, Limegrøn, Gul, Lysblå).</li>
