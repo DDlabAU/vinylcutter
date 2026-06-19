@@ -240,15 +240,15 @@
 
       <section id="materiale" class="box glass accent-teal">
         <h2>Materiale</h2>
-        <p>Vi har som regel forskellige typer akryl og papir til rådighed. Da vi udelukkende anvender officielle og bedst egnede materialer, er de desværre for dyre til at kunne tilbydes gratis. Derfor skal der betales for materialer i forbindelse med projekter – både undervisningsrelaterede og fritidsprojekter.</p>
+        <p>Vi har som regel forskellige typer vinyl og papir til rådighed. Da vi udelukkende anvender officielle og bedst egnede materialer, er de desværre for dyre til at kunne tilbydes gratis. Derfor skal der betales for materialer i forbindelse med projekter – både undervisningsrelaterede og fritidsprojekter.</p>
         <p><a class="chip glass" href="https://auwebshop.au.dk/udstyr/materialer" target="_blank" rel="noopener">Betal inde på vores Webshop</a></p>
         <h3>Selvanskaffet materiale</h3>
         <p>Det er muligt selv at skaffe materiale, da brugen af maskinen er gratis. Det kræver at man køber kompatibelt materiale af officiel udbyder (eller tilsvarende høj kvalitet).</p>
         <p>Tjek eventuelt: <a class="chip glass" href="https://www.elgiganten.dk/computer-kontor/printere-kontor/digital-skaremaskine" target="_blank" rel="noopener">Elgiganten</a> <a class="chip glass" href="https://makerstudio.dk/alt-til-cricut-joy_163" target="_blank" rel="noopener">makerstudio</a></p>
         
         <h3>Eksempler på materialer</h3>
-        <p><b>Smart akryl</b> (permanent)<br>Selvklæbende vinyl med stærk lim, beregnet til langtidsholdbare projekter. Tåler vand og sollys og bruges fx på glas, metal, plastik og skilte.</p>
-        <p><b>Smart akryl (flytbar)</b><br>Ligner den permanente version, men med en mildere lim. Kan fjernes uden at efterlade mærker.</p>
+        <p><b>Smart Vinyl</b> (permanent)<br>Selvklæbende vinyl med stærk lim, beregnet til langtidsholdbare projekter. Tåler vand og sollys og bruges fx på glas, metal, plastik og skilte.</p>
+        <p><b>Smart Vinyl (removable)</b><br>Ligner den permanente version, men med en mildere lim. Kan fjernes uden at efterlade mærker.</p>
         <p><b>Smart paper</b><br>Klæbende bagside, så du kan skære og sætte direkte på projektet uden lim. Bruges til kort, scrapbooking eller klistermærker.</p>
         <p><b>Smart paper (transparent / vandfast)</b><br>En klar, vandafvisende variant af smart papir – perfekt til etiketter, glas eller udendørs brug.</p>
         <p><b>Iron‑on (varmeoverførsel / HTV)</b><br>Materiale der overføres med varme på stof, tekstiler eller poser. Fås i mange farver, metallic eller glimmer.</p>
@@ -291,7 +291,7 @@
         <p><a class="chip glass" href="https://help.cricut.com/hc/en-us/articles/360061650414-How-to-use-the-Offset-feature-in-Design-Space" target="_blank" rel="noopener">Tilføj offset/outline til dit design</a></p>
         <h4>Formål</h4>
         <p>Skær illustrationer af grænseflader ud i smart‑papir eller vinyl – fx knapper, ikoner og overlays, du kan flytte rundt på skærmmockups, whiteboards eller fysiske modeller.</p>
-        <p>Kombinér Cricut‑skårne dele (pap, akryl, tyndt træ) med Arduino, MakeyMakey eller sensorer, så du får små, klikbare brugerflader.</p>
+        <p>Kombinér Cricut‑skårne dele (pap, vinyl, tyndt træ) med Arduino, MakeyMakey eller sensorer, så du får små, klikbare brugerflader.</p>
         <p>Skær logos, skiltning, stickers og etiketter til installationer, udstillinger eller projektdemoer.</p>
         <p>Mere på vej. Har du fundet eller selv skabt noget godt? Send det til os :)</p>
       </section>
